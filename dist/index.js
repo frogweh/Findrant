@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const greeter_js_1 = require("./greeter.js");
 const app = (0, express_1.default)();
 const port = process.env.PORT || 3000;
+//app.use(express.static(path.join(__dirname, '../public')));
 app.get('/', (req, res) => {
     //res.send('Hello, world!');
     res.send(greeter_js_1.test);
