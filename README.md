@@ -9,7 +9,7 @@
         "start": "node dist/index.js",
         "dev": "ts-node src/index.ts"
     }
-    ```
+```
 5. edit src/index.ts
 6.     npm run build
 7.     npm run start
