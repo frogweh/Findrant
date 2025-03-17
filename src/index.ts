@@ -1,3 +1,5 @@
+/*
+    Base line Example:
 import express, { Request, Response } from 'express';
         
 const app = express();
@@ -10,3 +12,8 @@ app.get('/', (req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+*/
+
+import * as fs from 'fs';
+
+fs;
